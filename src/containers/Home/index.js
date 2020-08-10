@@ -1,9 +1,11 @@
 import React from "react";
 import './style.css';
 
-const Home = props => {
+const Home = (props) => {
     return (
-        <div>Home</div>
+        <div>
+            
+        </div>
     );
 }
 
