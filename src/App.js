@@ -1,19 +1,27 @@
 import React from 'react';
 import './App.css';
-//import Home from './containers/Home';
+import Home from './containers/Home';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import Card from './components/UI/Card';
+import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
+import ContactUS from './containers/ContactUS';
+import Post from "./containers/Post";
 
 function App() {
   return (
+    <Router>
     <div className="App">
     
     <Header />
     <Hero />
-    <Card />
+
+    <Route path="/" exact component={Home} />
+    <Route path="/contact-us" component={ContactUS} />
+    <Route path="/post" component={Post} />
     
     </div>
+     </Router>
   );
 }
 
