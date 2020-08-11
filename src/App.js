@@ -10,18 +10,20 @@ import Post from "./containers/Post";
 
 function App() {
   return (
-    <Router>
-    <div className="App">
-    
-    <Header />
-    <Hero />
 
-    <Route path="/" exact component={Home} />
-    <Route path="/contact-us" component={ContactUS} />
-    <Route path="/post" component={Post} />
+    <Router>
+      <div className="App">
+        <Header />
+        <Hero />
+
+        <Route path="/" exact component={Home} />
+        <Route path="/contact-us"  component={ContactUS}/>
+        <Route path="/post/:slug" component={Post} />
+
+        
+      </div>
+    </Router>
     
-    </div>
-     </Router>
   );
 }
 
