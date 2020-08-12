@@ -21,13 +21,13 @@ const Sidebar = (props) => {
             }}>
                   <Card style={{ marginBottom: '20px', padding: '20px', boxSizing: 'border-box' }}>
                       <div className="cardHeader">
-                          <span>About Us</span>
+                          <span>About Me</span>
                       </div>
                       <div className="profileImageContainer">
-             <img src="https://www.aprilcornell.com/prod_detail_list/ladies-new-arrivals" alt=""/>
+                      <img src="https://imgur.com/JrxxHri.png" />
              </div>
                 <div className="cardBody">
-                    <p className="personalBio">My name is Rizwan  Khan I am a software developer specialization in Front end developement....:)</p>
+                    <p className="personalBio">My name is Irina and I like to create blogs....:)</p>
                 </div>
             </Card>
 

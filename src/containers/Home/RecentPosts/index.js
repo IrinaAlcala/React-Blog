@@ -2,10 +2,7 @@ import React from 'react';
 import './style.css';
 import Card from '../../../components/UI/Card';
 
-/**
-* @author
-* @function RecentPosts
-**/
+
 
 const RecentPosts = (props) => {
   return(
@@ -20,7 +17,7 @@ const RecentPosts = (props) => {
                 <span>Featured</span>
                 <h2>Fitness Mantra To Live Fit Life</h2>
                 <span>posted onJuly 21, 2016 bySora Blogging Tips</span>
-                <p>Midst first it, you're multiply divided. There don't, second his one given the he one third rule fruit, very. Fill. Seed give firm... Extremity direction existence as Dashwood's do up. Securing Marianne led welcomed offended but offering six rapt...</p>
+                <p>Midst first it, you're multiply divided. There don't, second his one given the he one third rule fruit, very. Fill. Seed give firm... Extremity direction existence as Dashwood's do up. Securing Marianne led welcomed offended but offering six rapt. After you learn how to think positive, you will notice amazing changes all around you. Your brain will actually begin to operate in a state of free-flowing feel-good hormones called endorphins, which will make you feel lighter and happier. You’ll also notice a major boost in confidence and will feel more capable of taking on new assignments and challenges that might have previously been outside your comfort zone.</p>
 
                 <button>Read More</button>     
 

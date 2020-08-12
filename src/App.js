@@ -4,7 +4,7 @@ import Home from './containers/Home';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import Card from './components/UI/Card';
-import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import ContactUS from './containers/ContactUS';
 import Post from "./containers/Post";
 

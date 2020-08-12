@@ -1,7 +1,8 @@
 .postImageWrapper {
-    height: 450px;
-    overflow: hidden;
-}
+    height: 850px;
+    padding: 10px;
+    
+} 
 
 .postImageWrapper img {
     width: 100%;

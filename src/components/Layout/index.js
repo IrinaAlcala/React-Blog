@@ -12,7 +12,7 @@ const Layout = (props) => {
 
             </div>
             <div>
-                <h1>This is footer for all pages</h1>
+                <h3>2020 Copyright Irina's Blog</h3>
             </div>
         </React.Fragment>
     )

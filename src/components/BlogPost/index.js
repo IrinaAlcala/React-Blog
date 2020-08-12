@@ -3,10 +3,7 @@ import './style.css';
 import Card from '../UI/Card';
 import blogPost from '../../data/blog.json';
 
-/**
-* @author
-* @function BlogPost
-**/
+
 
 const BlogPost = (props) => {
 
